@@ -81,6 +81,7 @@ class MainActivity : AppCompatActivity() {
                 .error(R.drawable.img_error).into(binding.img18)
 
         } else {
+
             Toast.makeText(this, "Please check the network connection first", Toast.LENGTH_SHORT)
                 .show()
         }
